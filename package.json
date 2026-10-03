@@ -1,0 +1,12 @@
+{
+  "name": "lili-photo-field-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "立里摄影实战指南 · Canon EOS 90D",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/app.js && node --check server.mjs && node --check scripts/build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

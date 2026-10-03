@@ -1,0 +1,27 @@
+# Dependencies and generated build files
+node_modules/
+/dist/
+/coverage/
+/.vercel/
+
+# Local secrets (keep example environment files trackable)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local screenshots and temporary files
+/preview/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+/.idea/
+/.vscode/
